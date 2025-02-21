@@ -1,92 +1,104 @@
 nav {
-    background-color: #333;
-    padding: 10px;
-  }
-  nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  header h1 {
-    color: #333;
-    font-size: 24px;
-    margin-left: 20px;
-  }
- 
-  /* Styling for the About Me page */
-  section {
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-  }
-  section img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-  }
- 
-  /* Styling for the Projects section */
-  section {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-  .project img {
-    width: 100%;
-    height: auto;
-  }
- 
-  /* Styling for the Contact form */
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-  }
-  form label {
-    margin-top: 10px;
-  }
-  form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-  }
-  form button {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  section img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-  }
-  .project img {
-    width: 100%;
-    height: auto;
-  }
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-  footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  footer a:hover {
-    text-decoration: underline;
-  }
+  background-color: #444;
+  padding: 15px;
+}
+nav a {
+  color: #ffd700;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+header h1 {
+  color: #444;
+  font-size: 26px;
+  margin-left: 25px;
+}
+
+/* Styling for the About Me page */
+section {
+  text-align: center;
+  padding: 25px;
+  margin: 25px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+section img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+/* Styling for the Projects section */
+section.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 25px;
+}
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Styling for the Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border: 1px solid #bbb;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+form label {
+  margin-top: 12px;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  margin-top: 18px;
+  padding: 12px 25px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #555;
+}
+section img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 15px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
